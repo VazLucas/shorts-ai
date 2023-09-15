@@ -1,0 +1,29 @@
+#app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: inherit;
+}
+#app > h1 {
+  margin-top: -2px;
+}
+
+#app > image {
+  width: 64px;
+}
+
+#app > h2 {
+  align-self: flex-start;
+  margin-top: 100px;
+}
+
+#app > p {
+  align-self: flex-start;
+  text-align: justify;
+  width: 500px;
+}
+
+#app .placeholder {
+  color: #7c7c8a;
+  user-select: none;
+}
